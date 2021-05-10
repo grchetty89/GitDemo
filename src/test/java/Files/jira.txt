@@ -1,0 +1,96 @@
+Govind
+	Fonts on New User Screen
+	Find o first item selection
+	Left tree vertically alignedHover New Tasl
+	
+	Select all checkboxes on privileges' screen
+	Project drop Down
+	Separator on dialog
+	Messages on scenario screen
+	Char limit to be displayed
+	auto resize of Description field
+	Separator to be more visible
+	File name and manual test case ID
+	Test data icon
+	Pencil Icon
+	Step Desc to be shown in reports
+	Test case editor > Error Flags, Action and Object Drop down
+	Breakpoint color
+	Scroll bar if large data
+	Mobile recording dialog
+Sonali
+	Items in the left pane could be normal in font weight 
+	New User - search button - can change it to icon
+	Delete User - review the popup
+	Can we get to review the 700 messages? 
+	user tab - alignment of cross, minus etc icons
+	New custom role - 
+	Editor - How will user know that they have to double click to access the dropdown?
+	TC view - Index numbers could be normal and light in color 
+	Icon related dropdowns - needs review on the visuals 
+	Context menu on right click needs visual change 
+	Breakpoint icon has to be slightly big
+	Select task to import - needs padding above and below the search field 
+-------------------------------------------
+Task Import Priority
+[P0]- Testcase tab- highlight TC with dotted line
+[P1]- Bulk import
+[P1]- logs - import and import history   
+[P2]- Environment variables
+[P2]- custom action POC + implementation
+[P3]- advance search
+[P3]- group by- import history tab 
+[P3]- TSR merge implementation	
+-------------------------------------------	
+
+Hover New Task text
+Two lines are getting selected
+Conflicted Task need to be fixed
+Vertical spacing needs to be less in left tree.
+If else Icon needs to be checked
+Strikethrough number column
+Performance for Bulk Import
+
+
+
+
+SFDCEdit
+	Locator: Edit
+	Value: FirstNAme
+----------------------------------
+Flag: True (SFDC)
+	Class: SFDCEdit
+	LT: SFDCLabel
+	LV: firstname
+
+	Class: SFDCEdit
+	LT: SFDCLabel or SFDCXpath
+	LV: xxxxxx
+	
+Flag: False
+	Class: SFDCEdit --> WebEdit
+	LT: ID
+	LV: 1234
+---------------------------------------------
+
+Bugs
+Installer
+	Buttons on the installer don't get highlighted when user does mouse hover.
+	Next Font in the First window is too big.	
+
+Find
+	Cursor should automatically come to the edit box.
+	For no results found, forecolor of data should turn to Red in find also.
+
+Setting
+	V-Scroll is missing from all settings screen
+	Drop Down UI needs to changed. Drop Down is curved but drop-down list is not. (Execution configuration screen)
+Test Case Tree
+	Scenario list is not sorted
+	Index Column is too wide.
+	Scenario Screen V-Scroll is not visible
+	Skipped step needs to be strikeout
+	
+https://docs.gitlab.com/ee/user/permissions.html
+
+------------------------------------------------------------------
