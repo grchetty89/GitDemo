@@ -29,6 +29,21 @@ public class SumValidataion {
 		
 		Assert.assertEquals(amount, totalcopies);
 		
+		
+		for(int i=0; i<count; i++)
+		{
+		price=	js.getInt("courses["+i+"].price");
+		copy= js.getInt("courses["+i+"].copies");
+		
+		totalcopies = totalcopies + (price*copy);
+		}
+		
+		if(amount == totalcopies)
+			System.out.println("correct");
+		else
+			System.out.println("Incorrect");
+		
+		Assert.assertEquals(amount, totalcopies);
 	}
 	
 }

@@ -93,4 +93,16 @@ Test Case Tree
 	
 https://docs.gitlab.com/ee/user/permissions.html
 
+
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>4.8.0</version>
+    <scope>test</scope>
+</dependency><dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>4.8.0</version>
+    <scope>test</scope>
+</dependency>
 ------------------------------------------------------------------
