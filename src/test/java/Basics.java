@@ -60,6 +60,18 @@ public class Basics {
 		System.out.println(address);
 		
 		Assert.assertEquals(address, "newAddress");
+		
+		
+		int count=3;
+		for(int i=0; i<count; i++)
+		{
+		int price=	js.getInt("courses["+i+"].price");
+		int copy= js.getInt("courses["+i+"].copies");
+		
+		
+		}
+		
+		
 	}
 
 }
